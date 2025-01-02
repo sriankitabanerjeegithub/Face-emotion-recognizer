@@ -1,7 +1,7 @@
 {
-  "name": "@jupyter-notebook/application-extension",
+  "name": "@jupyter-notebook/documentsearch-extension",
   "version": "7.2.2",
-  "description": "Jupyter Notebook - Application Extension",
+  "description": "Jupyter Notebook - Document Search Extension",
   "homepage": "https://github.com/jupyter/notebook",
   "bugs": {
     "url": "https://github.com/jupyter/notebook/issues"
@@ -39,20 +39,8 @@
   },
   "dependencies": {
     "@jupyter-notebook/application": "^7.2.2",
-    "@jupyter-notebook/ui-components": "^7.2.2",
     "@jupyterlab/application": "~4.2.5",
-    "@jupyterlab/apputils": "~4.3.5",
-    "@jupyterlab/codeeditor": "~4.2.5",
-    "@jupyterlab/console": "~4.2.5",
-    "@jupyterlab/coreutils": "~6.2.5",
-    "@jupyterlab/docmanager": "~4.2.5",
-    "@jupyterlab/docregistry": "~4.2.5",
-    "@jupyterlab/mainmenu": "~4.2.5",
-    "@jupyterlab/rendermime": "~4.2.5",
-    "@jupyterlab/settingregistry": "~4.2.5",
-    "@jupyterlab/translation": "~4.2.5",
-    "@lumino/coreutils": "^2.1.2",
-    "@lumino/disposable": "^2.1.2",
+    "@jupyterlab/documentsearch": "~4.2.5",
     "@lumino/widgets": "^2.3.2"
   },
   "devDependencies": {
